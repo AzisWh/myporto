@@ -24,18 +24,7 @@ const projectsData = [
     ghLink: "https://github.com/raihanfaiq/punggurbesar",
     demoLink: "https://punggurbesar-web.vercel.app/",
   },
-  {
-    imgPath: inraga,
-    title: "Inraga Website",
-    description: "P2MW (Program Pembinaan Mahasiswa Wirausaha) Website, have 5 main features (rent, looking for battle and trainer, event tickets and e-commerce ) with payment using xendit",
-    tags: [
-      { name: "Laravel", color: "primary" },
-      { name: "MySql", color: "success" },
-      { name: "Bootstrap", color: "danger" },
-    ],
-    ghLink: "#",
-    demoLink: "https://inraga.id/",
-  },
+
   {
     imgPath: absensi,
     title: "Online Presence Website",
@@ -60,6 +49,21 @@ const projectsData = [
     ],
     ghLink: "https://github.com/raihanfaiq/digitalist",
     demoLink: "https://digitalist.vercel.app/",
+  },
+];
+
+const OnGoingProjects = [
+  {
+    imgPath: inraga,
+    title: "Inraga Website",
+    description: "P2MW (Program Pembinaan Mahasiswa Wirausaha) Website, have 5 main features (rent, looking for battle and trainer, event tickets and e-commerce ) with payment using xendit",
+    tags: [
+      { name: "Laravel", color: "primary" },
+      { name: "MySql", color: "success" },
+      { name: "Bootstrap", color: "danger" },
+    ],
+    ghLink: "#",
+    demoLink: "https://inraga.id/",
   },
 ];
 
@@ -136,6 +140,19 @@ function Projects() {
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently and Production.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {projectsData.map((project, index) => (
+            <Col key={index} md={6} className="project-card">
+              <ProjectCard imgPath={project.imgPath} title={project.title} description={project.description} tags={project.tags} ghLink={project.ghLink} demoLink={project.demoLink} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+      <Container>
+        <h1 className="project-heading">
+          On Going <strong className="purple">Projects</strong>
+        </h1>
+        <p style={{ color: "white" }}>Here are a few projects I've worked on recently and Production.</p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {OnGoingProjects.map((project, index) => (
             <Col key={index} md={6} className="project-card">
               <ProjectCard imgPath={project.imgPath} title={project.title} description={project.description} tags={project.tags} ghLink={project.ghLink} demoLink={project.demoLink} />
             </Col>

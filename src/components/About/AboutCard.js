@@ -10,17 +10,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Hibatul Azis Anshari Wihasto </span>
             from <span className="purple"> Semarang, Indonesia.</span>
-            <br /> I am a Informatics Engineering Student at Dian Nuswantoro University.
+            <br /> I am an Informatics Engineering Student at Dian Nuswantoro University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities I love to do include:
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sport Activities like football and badminton
+              <ImPointRight /> Engaging in Sports like football and badminton
             </li>
           </ul>
 

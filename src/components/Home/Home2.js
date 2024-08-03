@@ -14,20 +14,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
+              I have a deep passion for programming, and I believe I’ve gained some valuable knowledge along the way 🤷‍♂️.
               <br />
-              <br /> I am fluent in programming languages​​ like
+              <br /> I am proficient in programming languages such as
               <i>
                 <b className="purple"> Javascript and PHP. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My areas of interest include &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and also related to <b className="purple">Ui/Ux Design.</b>
+                <b className="purple">Web Technologies and Products </b> as well as exploring <b className="purple">Ui/Ux Design.</b>
               </i>
               <br />
-              <br />I also apply my passion for developing products with <b className="purple">Library and Framework</b>
+              <br />I am also passionate about utilizing <b className="purple">Library and Framework</b>
               &nbsp; like
               <i>
                 <b className="purple"> Laravel, React.js and Next.js</b>
