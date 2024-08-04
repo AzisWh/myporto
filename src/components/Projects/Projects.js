@@ -150,7 +150,6 @@ function Projects() {
         <h1 className="project-heading">
           On Going <strong className="purple">Projects</strong>
         </h1>
-        <p style={{ color: "white" }}>Here are a few projects I've worked on recently and Production.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {OnGoingProjects.map((project, index) => (
             <Col key={index} md={6} className="project-card">
