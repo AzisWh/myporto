@@ -1,9 +1,10 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import profile from "../../Assets/profile.png";
-import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import profile from '../../Assets/profile.png';
+import Particle from '../Particle';
+import Home2 from './Home2';
+import Type from './Type';
+import profilenew from '../../Assets/cto.jpeg';
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hi There!{' '}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -22,16 +23,24 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Hibatul Azis Anshari Wihasto</strong>
+                <strong className="main-name">
+                  {' '}
+                  Hibatul Azis Anshari Wihasto
+                </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 10 }}>
-              <img src={profile} alt="home pic" className="img-fluid" style={{ maxHeight: "600px" }} />
+              <img
+                src={profilenew}
+                alt="home pic"
+                className="img-fluid "
+                style={{ maxHeight: '500px' }}
+              />
             </Col>
           </Row>
         </Container>

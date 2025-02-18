@@ -1,11 +1,11 @@
-import React from "react";
-import Typewriter from "typewriter-effect";
+import React from 'react';
+import Typewriter from 'typewriter-effect';
 
 function Type() {
   return (
     <Typewriter
       options={{
-        strings: ["Front End Developer", "Student"],
+        strings: ['Software Engineer', 'UI/UX Design'],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

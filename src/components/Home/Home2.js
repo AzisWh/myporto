@@ -1,8 +1,8 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Tilt from 'react-parallax-tilt';
+import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
   return (
@@ -10,11 +10,13 @@ function Home2() {
       <Container>
         <Row className="justify-content-center text-center">
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have a deep passion for programming, and I believe I’ve gained some valuable knowledge along the way 🤷‍♂️.
+              I have a deep passion for software engineering and UI/UX Design,
+              and I believe I’ve gained some valuable knowledge along the way
+              🤷‍♂️.
               <br />
               <br /> I am proficient in programming languages such as
               <i>
@@ -24,13 +26,18 @@ function Home2() {
               <br />
               My areas of interest include &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> as well as exploring <b className="purple">Ui/Ux Design.</b>
+                <b className="purple">Web Technologies and Products </b> as well
+                as exploring <b className="purple">Ui/Ux Design.</b>
               </i>
               <br />
-              <br />I am also passionate about utilizing <b className="purple">Library and Framework</b>
+              <br />I am also passionate about utilizing{' '}
+              <b className="purple">Library and Framework</b>
               &nbsp; like
               <i>
-                <b className="purple"> Laravel, React.js and Next.js</b>
+                <b className="purple">
+                  {' '}
+                  Laravel, ReactJs, React Native, VueJs and NextJs
+                </b>
               </i>
             </p>
           </Col>
@@ -43,17 +50,29 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a href="https://github.com/AzisWh" target="_blank" rel="noreferrer" className="icon-colour  home-social-icons">
+                <a
+                  href="https://github.com/AzisWh"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons">
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
-                <a href="https://www.linkedin.com/in/hibatulazis/" target="_blank" rel="noreferrer" className="icon-colour  home-social-icons">
+                <a
+                  href="https://www.linkedin.com/in/hibatulazis/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
-                <a href="https://www.instagram.com/azisaw_" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <a
+                  href="https://www.instagram.com/azisaw_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons">
                   <AiFillInstagram />
                 </a>
               </li>
