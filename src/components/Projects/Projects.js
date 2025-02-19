@@ -15,13 +15,28 @@ import poliklinik from '../../Assets/Projects/poliklinik.png';
 import pungguux from '../../Assets/Projects/punggurux.png';
 import equalhub from '../../Assets/Projects/equalhub.png';
 import shibals from '../../Assets/Projects/shibals.png';
+import choolifah from '../../Assets/Projects/choolifah.png';
+import postman from '../../Assets/Projects/postman.png';
 
 const WebsiteProjectsData = [
+  {
+    imgPath: choolifah,
+    title: 'Choolifah Open Course - Intern Project',
+    description:
+      'I developed both frontend and backend featuresusing PostgreSQL as the database | I implemented controllers, repositories, services, migrations, and seeders using Express.jsfor the Backend | I worked with React.js, utilizing component utilities, pages styled with Tailwind CSS, and state managementwith Redux. I also integrated API and libraries.',
+    tags: [
+      { name: 'ReactJs', color: 'primary' },
+      { name: 'ExpressJs', color: 'success' },
+      { name: 'TailwindCss', color: 'danger' },
+    ],
+    ghLink: 'https://github.com/AzisWh/Choolifah-Intern-Course',
+    demoLink: '#',
+  },
   {
     imgPath: inraga,
     title: 'Inraga Website',
     description:
-      'P2MW (Program Pembinaan Mahasiswa Wirausaha) Website, have main features (rent, looking for battle ) with payment integration using xendit',
+      'P2MW (Program Pembinaan Mahasiswa Wirausaha) Website, have main features (rent, looking for battle ) with payment integration using xendit.',
     tags: [
       { name: 'Laravel', color: 'primary' },
       { name: 'MySql', color: 'success' },
@@ -45,7 +60,7 @@ const WebsiteProjectsData = [
   },
   {
     imgPath: jwtauth,
-    title: 'ExpressJs Authentication ',
+    title: 'ExpressJs Authentication API',
     description:
       'Developing a website for authentication with JWT Auth using ExpressJS as the backend and React for the frontend.',
     tags: [
@@ -56,6 +71,17 @@ const WebsiteProjectsData = [
     ],
     ghLink: 'https://github.com/AzisWh/JWT-Auth-Website',
     demoLink: '#',
+  },
+  {
+    imgPath: postman,
+    title: 'Library System API ',
+    description:
+      'develop library system API with auth, borrow and return features.',
+    tags: [
+      { name: 'Laravel', color: 'primary' },
+      { name: 'MySql', color: 'success' },
+    ],
+    ghLink: 'https://github.com/AzisWh/API-Perpus',
   },
   {
     imgPath: digitalist,
@@ -108,19 +134,6 @@ const WebsiteProjectsData = [
     ],
     ghLink: 'https://github.com/AzisWh/poliklinik',
     demoLink: '#',
-  },
-  {
-    imgPath: adminui,
-    title: 'Client Side Programming Final Project',
-    description:
-      'developing a website as a final assignment for a client-side programming course, using ReactJS, SCSS and Firebase. ',
-    tags: [
-      { name: 'ReactJs', color: 'primary' },
-      { name: 'FireBase', color: 'success' },
-      { name: 'SCSS', color: 'danger' },
-    ],
-    ghLink: 'https://github.com/AzisWh/admin-ui',
-    demoLink: 'https://admin-ui-weld.vercel.app/',
   },
 ];
 
@@ -186,12 +199,13 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          Website<strong className="purple">Projects</strong>
-        </h1>
         <p style={{ color: 'white' }}>
           Here are a few projects I've worked on recently and Production.
         </p>
+        <h1 className="project-heading">
+          Website<strong className="purple">Projects</strong>
+        </h1>
+
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           {WebsiteProjectsData.map((project, index) => (
             <Col key={index} md={6} className="project-card">
