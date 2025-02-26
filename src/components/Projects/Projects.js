@@ -17,6 +17,7 @@ import equalhub from '../../Assets/Projects/equalhub.png';
 import shibals from '../../Assets/Projects/shibals.png';
 import choolifah from '../../Assets/Projects/choolifah.png';
 import postman from '../../Assets/Projects/postman.png';
+import megamall from '../../Assets/Projects/megamall.jpeg';
 
 const WebsiteProjectsData = [
   {
@@ -151,13 +152,26 @@ const MobileAppProjects = [
     demoLink: '#',
   },
   {
+    imgPath: megamall,
+    title: 'Mega Mall React Native UI',
+    description:
+      'Practicing my skills in developing App UI using React Native (tsx).',
+    tags: [
+      { name: 'React Native', color: 'info' },
+      { name: 'TypeScript', color: 'success' },
+    ],
+    ghLink: 'https://github.com/AzisWh/Expo-Go-Courses',
+    demoLink: '#',
+  },
+  {
     imgPath: expoapp,
     title: 'React Native Mobile App',
     description:
       'Developing applications with React Native and integrating APIs using Firebase.',
     tags: [
       { name: 'React Native', color: 'info' },
-      { name: 'Firebase', color: 'success' },
+      { name: 'TypeScript', color: 'success' },
+      { name: 'Firebase', color: 'danger' },
     ],
     ghLink: 'https://github.com/AzisWh/expo-app-fimabeauty',
     demoLink: '#',
