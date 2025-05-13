@@ -18,8 +18,21 @@ import shibals from '../../Assets/Projects/shibals.png';
 import choolifah from '../../Assets/Projects/choolifah.png';
 import postman from '../../Assets/Projects/postman.png';
 import megamall from '../../Assets/Projects/megamall.jpeg';
+import inosustain from '../../Assets/Projects/inosustain.png';
 
 const WebsiteProjectsData = [
+  {
+    imgPath: inosustain,
+    title: 'Inosustain Company Profile',
+    description:
+      'I developed both frontend and backend featuresusing MySql as the database | I implemented MVC  Sctructures, JWT Auth, CRUD Function using Laravel 10 the Backend | I worked with React-vite, utilizing component utilities, pages styled with Tailwind CSS, and state managementwith Redux. I also integrated API and libraries.',
+    tags: [
+      { name: 'ReactJs', color: 'primary' },
+      { name: 'Laravel', color: 'success' },
+    ],
+    ghLink: '',
+    demoLink: '#',
+  },
   {
     imgPath: choolifah,
     title: 'Choolifah Open Course - Intern Project',
